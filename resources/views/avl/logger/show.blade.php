@@ -26,7 +26,7 @@
 
                 <div class="col-12">
                   <div class="form-group">
-                    <label><b>Model</b></label>
+                    <label><b>Сущнсть</b></label>
                     <span class="form-control">{{ $log->section->name_ru ?? array_get(config('avllogger.modelsNames'), $log->model) ?? $log->model }}</span>
                   </div>
                 </div>
