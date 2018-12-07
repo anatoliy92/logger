@@ -1,0 +1,29 @@
+{
+    "name": "avl/logger",
+    "description": "User Logger",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Lyos Anatoliy",
+            "email": "les.anatoliy.92@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+          "Avl\\Logger\\": "src/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avl\\Logger\\AvlLoggerServiceProvider"
+            ],
+            "aliases": {
+                "AvlLogger": "Avl\\Logger\\AvlLoggerServiceProvider"
+            }
+        }
+    }
+}
