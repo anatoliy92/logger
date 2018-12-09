@@ -3,9 +3,9 @@
 namespace Avl\Logger\Observers;
 
 use Avl\Logger\Observers\AvlBaseObserver;
-use App\Models\Permissions;
+use App\Models\Langs;
 
-class PermissionsObserver extends AvlBaseObserver
+class LangsObserver extends AvlBaseObserver
 {
 
 }
