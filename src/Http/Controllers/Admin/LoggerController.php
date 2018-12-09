@@ -13,7 +13,6 @@ class LoggerController extends AvlController
 
         $logs = $this->getQuery($logs, $request);
 
-
         return view('avl-logger::avl.logger.index', [
           'logs' => $logs->orderBy('created_at', 'DESC')->paginate(config('avllogger.countPage'))
         ]);
@@ -23,8 +22,6 @@ class LoggerController extends AvlController
     {
       $log = AvlLogs::findOrFail($id);
 
-      // dd($log);
-
       return view('avl-logger::avl.logger.show', [
         'log' => $log
       ]);
@@ -32,7 +29,7 @@ class LoggerController extends AvlController
 
     protected function getQuery ($logs, $request)
     {
-
+      // Формирование запроса для фильтраа
 
       return $logs;
     }
