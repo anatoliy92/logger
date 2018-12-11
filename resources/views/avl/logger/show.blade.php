@@ -102,8 +102,8 @@
                             @if ($followValue != $log->previous[$followKey])
                               <tr>
                                 <td>{{ $followKey }}</td>
-                                <td>{{ $log->previous[$followKey] }}</td>
-                                <td>{{ $followValue }}</td>
+                                <td>{!! $log->previous[$followKey] !!}</td>
+                                <td>{!! $followValue !!}</td>
                               </tr>
                             @endif
                           @endforeach
