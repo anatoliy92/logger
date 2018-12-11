@@ -20,6 +20,7 @@ return [
       App\Models\Sections::class  => \Avl\Logger\Observers\SectionsObserver::class,
       App\Models\Pages::class     => \Avl\Logger\Observers\PagesObserver::class,
       App\Models\Links::class     => \Avl\Logger\Observers\LinksObserver::class,
+      App\Models\News::class      => \Avl\Logger\Observers\NewsObserver::class,
 
       App\Models\Roles::class     => \Avl\Logger\Observers\RolesObserver::class,
       App\Models\User::class      => \Avl\Logger\Observers\UserObserver::class,
