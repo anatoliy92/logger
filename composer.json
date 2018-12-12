@@ -2,7 +2,7 @@
     "name": "avl/logger",
     "description": "Logging user actions",
     "license": "MIT",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "authors": [
         {
             "name": "Lyos Anatoliy",
